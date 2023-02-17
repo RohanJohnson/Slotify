@@ -5,9 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale = 1.0">
     <title>Home</title>
+
+<!------------------------------------------------------------------------->
+<style>
+*{
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+}
+.name{
+    padding-left: 1vh;
+}
+
 </head>
 
 <body>
+    <div class="name">
+        Spotify
+    </div>
     <h1> Index of songs </h1>
     <% for (let song of songs) { %>
     <li> <a href="/s/<%=song.id-1%>"> <%= song.title %> </a> </li>
