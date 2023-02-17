@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.get('/s/:songId', (req, res) => {
     const { songId } = req.params;
     const data = songData[2].data[songId]
-    const artists = songData[3].data[1]
+    const artists = songData[3].data[data.artist-1]
 
 
     if (data) {
