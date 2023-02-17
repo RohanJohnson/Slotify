@@ -11,6 +11,12 @@ app.get('/', (req, res) => {
   res.render(`home`, songs);
 });
 
+app.get('/register', (req, res) => {
+  users_creds = songData[8].data;
+
+  res.render('register', users_creds);
+});
+
 app.get('/s/:songId', (req, res) => {
   const { songId } = req.params;
   const data = songData[2].data[songId];
