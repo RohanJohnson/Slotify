@@ -1,0 +1,14 @@
+{
+    "songs": [
+        {
+            "name": "song 1",
+            "artist": "band 1",
+            "songId": 0
+        },
+        {
+            "name": "song 2",
+            "artist": "band 2",
+            "songId": 1
+        }
+    ]
+}

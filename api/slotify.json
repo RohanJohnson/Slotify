@@ -1,0 +1,674 @@
+[{
+        "type": "header",
+        "version": "5.0.4",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "slotify"
+    },
+    {
+        "type": "table",
+        "name": "albums",
+        "database": "slotify",
+        "data": [{
+                "id": "1",
+                "title": "Bacon and Eggs",
+                "artist": "2",
+                "genre": "4",
+                "artworkPath": "assets\/images\/artwork\/clearday.jpg"
+            },
+            {
+                "id": "2",
+                "title": "Pizza head",
+                "artist": "5",
+                "genre": "10",
+                "artworkPath": "assets\/images\/artwork\/energy.jpg"
+            },
+            {
+                "id": "3",
+                "title": "Summer Hits",
+                "artist": "3",
+                "genre": "1",
+                "artworkPath": "assets\/images\/artwork\/goinghigher.jpg"
+            },
+            {
+                "id": "4",
+                "title": "The movie soundtrack",
+                "artist": "2",
+                "genre": "9",
+                "artworkPath": "assets\/images\/artwork\/funkyelement.jpg"
+            },
+            {
+                "id": "5",
+                "title": "Best of the Worst",
+                "artist": "1",
+                "genre": "3",
+                "artworkPath": "assets\/images\/artwork\/popdance.jpg"
+            },
+            {
+                "id": "6",
+                "title": "Hello World",
+                "artist": "3",
+                "genre": "6",
+                "artworkPath": "assets\/images\/artwork\/ukulele.jpg"
+            },
+            {
+                "id": "7",
+                "title": "Best beats",
+                "artist": "4",
+                "genre": "7",
+                "artworkPath": "assets\/images\/artwork\/sweet.jpg"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "artists",
+        "database": "slotify",
+        "data": [{
+                "id": "1",
+                "name": "Mickey Mouse"
+            },
+            {
+                "id": "2",
+                "name": "Goofy"
+            },
+            {
+                "id": "3",
+                "name": "Bart Simpson"
+            },
+            {
+                "id": "4",
+                "name": "Homer"
+            },
+            {
+                "id": "5",
+                "name": "Bruce Lee"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "genres",
+        "database": "slotify",
+        "data": [{
+                "id": "1",
+                "name": "Rock"
+            },
+            {
+                "id": "2",
+                "name": "Pop"
+            },
+            {
+                "id": "3",
+                "name": "Hip-hop"
+            },
+            {
+                "id": "4",
+                "name": "Rap"
+            },
+            {
+                "id": "5",
+                "name": "R & B"
+            },
+            {
+                "id": "6",
+                "name": "Classical"
+            },
+            {
+                "id": "7",
+                "name": "Techno"
+            },
+            {
+                "id": "8",
+                "name": "Jazz"
+            },
+            {
+                "id": "9",
+                "name": "Folk"
+            },
+            {
+                "id": "10",
+                "name": "Country"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "playlists",
+        "database": "slotify",
+        "data": [{
+                "id": "2",
+                "name": "Playlist2",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-08-27 00:00:00"
+            },
+            {
+                "id": "3",
+                "name": "Running Songs",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-08-27 00:00:00"
+            },
+            {
+                "id": "4",
+                "name": "Classics",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-08-27 00:00:00"
+            },
+            {
+                "id": "5",
+                "name": "Party",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-08-27 00:00:00"
+            },
+            {
+                "id": "6",
+                "name": "This is a test",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-12-04 00:00:00"
+            },
+            {
+                "id": "7",
+                "name": "Bulldozer",
+                "owner": "reece-kenney",
+                "dateCreated": "2017-12-04 00:00:00"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "playlistsongs",
+        "database": "slotify",
+        "data": [{
+                "id": "6",
+                "songId": "17",
+                "playlistId": "2",
+                "playlistOrder": "4"
+            },
+            {
+                "id": "8",
+                "songId": "16",
+                "playlistId": "5",
+                "playlistOrder": "0"
+            },
+            {
+                "id": "9",
+                "songId": "15",
+                "playlistId": "3",
+                "playlistOrder": "0"
+            },
+            {
+                "id": "10",
+                "songId": "14",
+                "playlistId": "4",
+                "playlistOrder": "0"
+            },
+            {
+                "id": "11",
+                "songId": "17",
+                "playlistId": "3",
+                "playlistOrder": "1"
+            },
+            {
+                "id": "12",
+                "songId": "16",
+                "playlistId": "3",
+                "playlistOrder": "2"
+            },
+            {
+                "id": "13",
+                "songId": "16",
+                "playlistId": "5",
+                "playlistOrder": "1"
+            },
+            {
+                "id": "14",
+                "songId": "14",
+                "playlistId": "3",
+                "playlistOrder": "3"
+            },
+            {
+                "id": "15",
+                "songId": "5",
+                "playlistId": "5",
+                "playlistOrder": "2"
+            },
+            {
+                "id": "16",
+                "songId": "23",
+                "playlistId": "4",
+                "playlistOrder": "1"
+            },
+            {
+                "id": "17",
+                "songId": "6",
+                "playlistId": "2",
+                "playlistOrder": "5"
+            },
+            {
+                "id": "18",
+                "songId": "29",
+                "playlistId": "3",
+                "playlistOrder": "4"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "songs",
+        "database": "slotify",
+        "data": [{
+                "id": "1",
+                "title": "Acoustic Breeze",
+                "artist": "1",
+                "album": "5",
+                "genre": "8",
+                "duration": "2:37",
+                "path": "assets\/music\/bensound-acousticbreeze.mp3",
+                "albumOrder": "1",
+                "plays": "10"
+            },
+            {
+                "id": "2",
+                "title": "A new beginning",
+                "artist": "1",
+                "album": "5",
+                "genre": "1",
+                "duration": "2:35",
+                "path": "assets\/music\/bensound-anewbeginning.mp3",
+                "albumOrder": "2",
+                "plays": "4"
+            },
+            {
+                "id": "3",
+                "title": "Better Days",
+                "artist": "1",
+                "album": "5",
+                "genre": "2",
+                "duration": "2:33",
+                "path": "assets\/music\/bensound-betterdays.mp3",
+                "albumOrder": "3",
+                "plays": "10"
+            },
+            {
+                "id": "4",
+                "title": "Buddy",
+                "artist": "1",
+                "album": "5",
+                "genre": "3",
+                "duration": "2:02",
+                "path": "assets\/music\/bensound-buddy.mp3",
+                "albumOrder": "4",
+                "plays": "13"
+            },
+            {
+                "id": "5",
+                "title": "Clear Day",
+                "artist": "1",
+                "album": "5",
+                "genre": "4",
+                "duration": "1:29",
+                "path": "assets\/music\/bensound-clearday.mp3",
+                "albumOrder": "5",
+                "plays": "8"
+            },
+            {
+                "id": "6",
+                "title": "Going Higher",
+                "artist": "2",
+                "album": "1",
+                "genre": "1",
+                "duration": "4:04",
+                "path": "assets\/music\/bensound-goinghigher.mp3",
+                "albumOrder": "1",
+                "plays": "34"
+            },
+            {
+                "id": "7",
+                "title": "Funny Song",
+                "artist": "2",
+                "album": "4",
+                "genre": "2",
+                "duration": "3:07",
+                "path": "assets\/music\/bensound-funnysong.mp3",
+                "albumOrder": "2",
+                "plays": "12"
+            },
+            {
+                "id": "8",
+                "title": "Funky Element",
+                "artist": "2",
+                "album": "1",
+                "genre": "3",
+                "duration": "3:08",
+                "path": "assets\/music\/bensound-funkyelement.mp3",
+                "albumOrder": "2",
+                "plays": "26"
+            },
+            {
+                "id": "9",
+                "title": "Extreme Action",
+                "artist": "2",
+                "album": "1",
+                "genre": "4",
+                "duration": "8:03",
+                "path": "assets\/music\/bensound-extremeaction.mp3",
+                "albumOrder": "3",
+                "plays": "29"
+            },
+            {
+                "id": "10",
+                "title": "Epic",
+                "artist": "2",
+                "album": "4",
+                "genre": "5",
+                "duration": "2:58",
+                "path": "assets\/music\/bensound-epic.mp3",
+                "albumOrder": "3",
+                "plays": "17"
+            },
+            {
+                "id": "11",
+                "title": "Energy",
+                "artist": "2",
+                "album": "1",
+                "genre": "6",
+                "duration": "2:59",
+                "path": "assets\/music\/bensound-energy.mp3",
+                "albumOrder": "4",
+                "plays": "26"
+            },
+            {
+                "id": "12",
+                "title": "Dubstep",
+                "artist": "2",
+                "album": "1",
+                "genre": "7",
+                "duration": "2:03",
+                "path": "assets\/music\/bensound-dubstep.mp3",
+                "albumOrder": "5",
+                "plays": "22"
+            },
+            {
+                "id": "13",
+                "title": "Happiness",
+                "artist": "3",
+                "album": "6",
+                "genre": "8",
+                "duration": "4:21",
+                "path": "assets\/music\/bensound-happiness.mp3",
+                "albumOrder": "5",
+                "plays": "3"
+            },
+            {
+                "id": "14",
+                "title": "Happy Rock",
+                "artist": "3",
+                "album": "6",
+                "genre": "9",
+                "duration": "1:45",
+                "path": "assets\/music\/bensound-happyrock.mp3",
+                "albumOrder": "4",
+                "plays": "8"
+            },
+            {
+                "id": "15",
+                "title": "Jazzy Frenchy",
+                "artist": "3",
+                "album": "6",
+                "genre": "10",
+                "duration": "1:44",
+                "path": "assets\/music\/bensound-jazzyfrenchy.mp3",
+                "albumOrder": "3",
+                "plays": "11"
+            },
+            {
+                "id": "16",
+                "title": "Little Idea",
+                "artist": "3",
+                "album": "6",
+                "genre": "1",
+                "duration": "2:49",
+                "path": "assets\/music\/bensound-littleidea.mp3",
+                "albumOrder": "2",
+                "plays": "12"
+            },
+            {
+                "id": "17",
+                "title": "Memories",
+                "artist": "3",
+                "album": "6",
+                "genre": "2",
+                "duration": "3:50",
+                "path": "assets\/music\/bensound-memories.mp3",
+                "albumOrder": "1",
+                "plays": "6"
+            },
+            {
+                "id": "18",
+                "title": "Moose",
+                "artist": "4",
+                "album": "7",
+                "genre": "1",
+                "duration": "2:43",
+                "path": "assets\/music\/bensound-moose.mp3",
+                "albumOrder": "5",
+                "plays": "2"
+            },
+            {
+                "id": "19",
+                "title": "November",
+                "artist": "4",
+                "album": "7",
+                "genre": "2",
+                "duration": "3:32",
+                "path": "assets\/music\/bensound-november.mp3",
+                "albumOrder": "4",
+                "plays": "5"
+            },
+            {
+                "id": "20",
+                "title": "Of Elias Dream",
+                "artist": "4",
+                "album": "7",
+                "genre": "3",
+                "duration": "4:58",
+                "path": "assets\/music\/bensound-ofeliasdream.mp3",
+                "albumOrder": "3",
+                "plays": "5"
+            },
+            {
+                "id": "21",
+                "title": "Pop Dance",
+                "artist": "4",
+                "album": "7",
+                "genre": "2",
+                "duration": "2:42",
+                "path": "assets\/music\/bensound-popdance.mp3",
+                "albumOrder": "2",
+                "plays": "12"
+            },
+            {
+                "id": "22",
+                "title": "Retro Soul",
+                "artist": "4",
+                "album": "7",
+                "genre": "5",
+                "duration": "3:36",
+                "path": "assets\/music\/bensound-retrosoul.mp3",
+                "albumOrder": "1",
+                "plays": "12"
+            },
+            {
+                "id": "23",
+                "title": "Sad Day",
+                "artist": "5",
+                "album": "2",
+                "genre": "1",
+                "duration": "2:28",
+                "path": "assets\/music\/bensound-sadday.mp3",
+                "albumOrder": "1",
+                "plays": "9"
+            },
+            {
+                "id": "24",
+                "title": "Sci-fi",
+                "artist": "5",
+                "album": "2",
+                "genre": "2",
+                "duration": "4:44",
+                "path": "assets\/music\/bensound-scifi.mp3",
+                "albumOrder": "2",
+                "plays": "9"
+            },
+            {
+                "id": "25",
+                "title": "Slow Motion",
+                "artist": "5",
+                "album": "2",
+                "genre": "3",
+                "duration": "3:26",
+                "path": "assets\/music\/bensound-slowmotion.mp3",
+                "albumOrder": "3",
+                "plays": "4"
+            },
+            {
+                "id": "26",
+                "title": "Sunny",
+                "artist": "5",
+                "album": "2",
+                "genre": "4",
+                "duration": "2:20",
+                "path": "assets\/music\/bensound-sunny.mp3",
+                "albumOrder": "4",
+                "plays": "19"
+            },
+            {
+                "id": "27",
+                "title": "Sweet",
+                "artist": "5",
+                "album": "2",
+                "genre": "5",
+                "duration": "5:07",
+                "path": "assets\/music\/bensound-sweet.mp3",
+                "albumOrder": "5",
+                "plays": "17"
+            },
+            {
+                "id": "28",
+                "title": "Tenderness ",
+                "artist": "3",
+                "album": "3",
+                "genre": "7",
+                "duration": "2:03",
+                "path": "assets\/music\/bensound-tenderness.mp3",
+                "albumOrder": "4",
+                "plays": "13"
+            },
+            {
+                "id": "29",
+                "title": "The Lounge",
+                "artist": "3",
+                "album": "3",
+                "genre": "8",
+                "duration": "4:16",
+                "path": "assets\/music\/bensound-thelounge.mp3 ",
+                "albumOrder": "3",
+                "plays": "7"
+            },
+            {
+                "id": "30",
+                "title": "Ukulele",
+                "artist": "3",
+                "album": "3",
+                "genre": "9",
+                "duration": "2:26",
+                "path": "assets\/music\/bensound-ukulele.mp3 ",
+                "albumOrder": "2",
+                "plays": "22"
+            },
+            {
+                "id": "31",
+                "title": "Tomorrow",
+                "artist": "3",
+                "album": "3",
+                "genre": "1",
+                "duration": "4:54",
+                "path": "assets\/music\/bensound-tomorrow.mp3 ",
+                "albumOrder": "1",
+                "plays": "15"
+            }
+        ]
+    }, {
+        "type": "table",
+        "name": "users",
+        "database": "slotify",
+        "data": [{
+                "id": "1",
+                "username": "reece-kenney",
+                "firstName": "Reece",
+                "lastName": "Kenney",
+                "email": "Reece@gmail.com",
+                "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+                "signUpDate": "2017-06-28 00:00:00",
+                "profilePic": "assets\/images\/profile-pics\/head_emerald.png"
+            },
+            {
+                "id": "2",
+                "username": "donkey-kong",
+                "firstName": "Donkey",
+                "lastName": "Kong",
+                "email": "Dk@yahoo.com",
+                "password": "7c6a180b36896a0a8c02787eeafb0e4c",
+                "signUpDate": "2017-06-28 00:00:00",
+                "profilePic": "assets\/images\/profile-pics\/head_emerald.png"
+            },
+            {
+                "id": "3",
+                "username": "simon-cowell",
+                "firstName": "Simon",
+                "lastName": "Cowell",
+                "email": "Simon@gmail.com",
+                "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+                "signUpDate": "2017-10-29 00:00:00",
+                "profilePic": "assets\/images\/profile-pics\/head_emerald.png"
+            },
+            {
+                "id": "4",
+                "username": "simon-cowell1",
+                "firstName": "Simon",
+                "lastName": "Cowell",
+                "email": "Simon1@gmail.com",
+                "password": "password",
+                "signUpDate": "2017-11-14 00:00:00",
+                "profilePic": "assets\/images\/profile-images\/head-emerald.png"
+            },
+            {
+                "id": "5",
+                "username": "simon-cowell2",
+                "firstName": "Simon",
+                "lastName": "Cowell",
+                "email": "Simon2@gmail.com",
+                "password": "password",
+                "signUpDate": "2017-11-15 00:00:00",
+                "profilePic": "assets\/images\/profile-images\/head-emerald.png"
+            },
+            {
+                "id": "6",
+                "username": "Simon-cowell10",
+                "firstName": "Reece",
+                "lastName": "Kenney",
+                "email": "Reecekenney50111@gmail.com",
+                "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+                "signUpDate": "2017-11-16 00:00:00",
+                "profilePic": "assets\/images\/profile-pics\/head_emerald.png"
+            },
+            {
+                "id": "7",
+                "username": "Llenn",
+                "firstName": "Rohan",
+                "lastName": "Johnson",
+                "email": "21000165@students.gateshead.ac.uk",
+                "password": "7c6a180b36896a0a8c02787eeafb0e4c",
+                "signUpDate": "2023-02-17 00:00:00",
+                "profilePic": "assets\/images\/profile-pics\/head_emerald.png"
+            }
+        ]
+    }
+]
