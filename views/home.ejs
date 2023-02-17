@@ -8,8 +8,10 @@
 </head>
 
 <body>
-    <h1> Home <%= 'page'.toUpperCase() %> </h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque tempora nostrum error, fuga distinctio officia placeat amet, nobis neque, debitis deserunt adipisci. Corporis magnam nisi, earum fugit obcaecati officiis nihil!</p>
+    <h1> Index of songs </h1>
+    <% for (let song of songs) { %>
+    <li> <a href="/s/<%=song.id-1%>"> <%= song.title %> </a> </li>
+    <% } %>
 </body>
 
 </html>
