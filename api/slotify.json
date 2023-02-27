@@ -16,49 +16,49 @@
                 "title": "Bacon and Eggs",
                 "artist": "2",
                 "genre": "4",
-                "artworkPath": "assets\/images\/artwork\/clearday.jpg"
+                "artworkPath": "/album1.jpg"
             },
             {
                 "id": "2",
                 "title": "Pizza head",
                 "artist": "5",
                 "genre": "10",
-                "artworkPath": "assets\/images\/artwork\/energy.jpg"
+                "artworkPath": "/album2.jpg"
             },
             {
                 "id": "3",
                 "title": "Summer Hits",
                 "artist": "3",
                 "genre": "1",
-                "artworkPath": "assets\/images\/artwork\/goinghigher.jpg"
+                "artworkPath": "/album3.jpg"
             },
             {
                 "id": "4",
                 "title": "The movie soundtrack",
                 "artist": "2",
                 "genre": "9",
-                "artworkPath": "assets\/images\/artwork\/funkyelement.jpg"
+                "artworkPath": "/album4.jpg"
             },
             {
                 "id": "5",
                 "title": "Best of the Worst",
                 "artist": "1",
                 "genre": "3",
-                "artworkPath": "assets\/images\/artwork\/popdance.jpg"
+                "artworkPath": "/album5.jpg"
             },
             {
                 "id": "6",
                 "title": "Hello World",
                 "artist": "3",
                 "genre": "6",
-                "artworkPath": "assets\/images\/artwork\/ukulele.jpg"
+                "artworkPath": "/album6.jpg"
             },
             {
                 "id": "7",
                 "title": "Best beats",
                 "artist": "4",
                 "genre": "7",
-                "artworkPath": "assets\/images\/artwork\/sweet.jpg"
+                "artworkPath": "/album7.jpg"
             }
         ]
     }, {
